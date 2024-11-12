@@ -1,0 +1,14 @@
+:root
+{
+    --royal-blue:blue;
+}
+
+body > ul
+{
+    color: var(--royal-blue);
+}
+
+a [href="https://www.youtube.com/"]
+{
+    color: darkorchid;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Класна робота</title>
+</head>
+<body>
+    <h3>Форма для заповнення</h3>
+<form>
+    <label for="name">ПІБ
+        <input  autofocus placeholder="Вкажіть ваше Ім'я І Прізвище">
+    </label>
+<br>
+<br>
+    <label> Password
+        <input placeholder="Пароль" maxlength="12" minlength="4" type="text">
+    </label>
+<br>
+<br>
+<button>submit</button>
+</form>
+<h3><p>Виберіть один колір</p></h3>
+<label>
+    <input type="radio" name="color" value="White" checked>
+    Білий
+</label>
+<label>
+    <input type="radio" name="color" value="Black">
+    Чорний
+</label>
+<label>
+    <input type="radio" name="color" value="Gray">
+    Сірий
+</label>
+<br>
+<h3><p>Виберіть декілька варіантів</p></h3>
+<label>
+    <input type="checkbox" name="color" value="White" checked>
+    Білий
+</label>
+<label>
+    <input type="checkbox" name="color" value="Black">
+    Чорний
+</label>
+<label>
+    <input type="checkbox" name="color" value="Gray">
+    Сірий
+</label>
+<br>
+<h3>Додавання</h3>
+<label>
+    Додавання step 10
+    <br>
+    <input type="number" minlength="0" maxlength="100" step="10">
+</label>
+<br>
+<h3>Повзунок</h3>
+<label>
+    Повзунок step 10
+    <br>
+    <input type="range" minlength="0" maxlength="100" step="10">
+</label>
+<br>
+<h3>Час та дата</h3>
+
+<label>
+    Час
+    <input type="time">
+</label>
+<br>
+<br>
+<label>
+    Дата
+    <input type="datetime-local">
+</label>
+<br>
+<h3>Поле для вводу</h3>
+<label>
+    Коментар
+    <br>
+    <textarea name="Comment" placeholder="Напишіть щось"></textarea>
+</label>
+<br>
+<h3>Випадаючий список</h3>
+<label>
+    Виберіть розмір
+    <select name="select" id="">
+        <option value="xs">xs</option>
+        <option value="s">s</option>
+        <option value="m">m</option>
+        <option value="l">L</option>
+        <option value="l">xL</option>
+    </select>
+</label>
+<br>
+<h3>Даталист</h3>
+<label for="fav"> Виберіть свій улюблений браузер</label>
+<input list="browsers" name="fav" id="fav"/>
+<datalist id="browsers">
+    <option value="FireFox"></option>
+    <option value="Google"></option>
+    <option value="Opera"></option>
+</datalist>
+</body>
+</html>

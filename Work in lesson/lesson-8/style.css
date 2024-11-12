@@ -1,0 +1,33 @@
+:root
+{
+    --main-bk-color:rgb(18, 18, 18);
+}
+
+:root
+{
+    --button-color:#B2FFA6;
+}
+
+:root
+{
+    --section-color:#EFEFEF;
+}
+
+
+header
+{
+    background-color: var(--main-bk-color);
+}
+footer
+{
+    background-color: var(--main-bk-color);
+}
+
+.button
+{
+    background-color: var(--button-color);
+}
+.section
+{
+    background-color: var(--section-color);
+}
