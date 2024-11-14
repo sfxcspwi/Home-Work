@@ -1,0 +1,40 @@
+
+a:visited
+{
+    color: black;
+}
+
+#two
+{
+    color: blueviolet;
+}
+
+#two:visited
+{
+    color: aqua;
+}
+
+button:focus
+{
+    color: darkviolet;
+}
+
+.two:not(:first-child)
+{
+    color: magenta;
+}
+
+.yoy0:nth-child(2n+1)
+{
+    color: rgb(175, 133, 252);
+}
+
+.yoy:nth-child(2n)
+{
+    color: rgb(0, 17, 255);
+}
+
+.yoy2:nth-child(3n)
+{
+    color: rgb(60, 255, 0);
+}
