@@ -1,0 +1,50 @@
+.Monday:hover
+{
+    color: blue;
+}
+
+a:link
+{
+    color: rgb(255, 0, 0);
+}
+
+a:visited
+{
+    color: rgb(0, 0, 0);
+}
+
+button:focus
+{
+    color: forestgreen;
+}
+
+
+.form:checked+label
+{
+    color: blueviolet;
+}
+
+#Friday li:first-child 
+{
+    color: blueviolet;
+}
+
+#Friday li:nth-child(3)
+{
+    color: darkblue;
+}
+
+#Friday li:last-child
+{
+    color: rgb(26, 116, 111);
+}
+
+.Monday li:nth-child(2n)
+{
+    color: darkgreen;
+}
+
+.Wednesday li:nth-child(n+2)
+{
+    color: hotpink;
+}
