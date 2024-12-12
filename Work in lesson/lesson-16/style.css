@@ -1,0 +1,9 @@
+p
+{ 
+    width: 100px;
+    padding: 100px 20px 200px 150px;
+    margin: 100px 20px 200px 150px;
+    line-height: 100px;
+    border: 10px double black;
+    border-radius: 100px;
+}

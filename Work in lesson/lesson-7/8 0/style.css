@@ -1,0 +1,158 @@
+:root
+{
+    --header-text-color: #FED136;
+    --h-main-color: #222222;
+    --p-main-color: #777777;
+    --h2-footer-color: #FFFFFF;
+}
+header
+{
+    display: flex;
+}
+
+footer
+{
+    background-color: var(--h-main-color);
+}
+
+ul
+{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+
+.h2-logo-header
+{
+    color: var(--header-text-color);
+    font-family: "Bilbo Swash Caps";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1.2999999523162842px;
+    text-decoration-skip-ink: none;
+    margin-top: 0;
+
+}
+
+.header-nav-style
+{
+    color:var(--header-text-color);
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    text-decoration-skip-ink: none;
+    margin: 20px;
+
+}
+
+h1
+{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.h4-main
+{
+    color: var(--h-main-color);
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -0.44999998807907104px;
+    text-decoration-skip-ink: none;
+
+}
+
+.p-main
+{
+    color: var(--p-main-color);
+    font-family: "RobotoSlab";
+    font-size: 14px;
+    line-height: 16.41px;
+    letter-spacing: -0.3499999940395355px;
+    text-decoration-skip-ink: none;
+
+}
+
+.h2-form-footer
+{
+    color: var(--h2-footer-color);
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.76px;
+    letter-spacing: -1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+.label-footer::placeholder
+{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    letter-spacing: -0.3499999940395355px;
+    text-decoration-skip-ink: none;
+    
+}
+
+.label-footer
+{
+    width: 455px;
+    height: 50px;
+    top: 2px;
+    left: 1px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+
+}
+
+.button-foooter
+{
+    font-family:"Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.94px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--h2-footer-color);
+    background-color: var(--header-text-color);
+    width: 242px;
+    height: 68px;
+    top: 496px;
+    left: 582px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.container
+{
+    max-width: 1404px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  
+}

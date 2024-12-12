@@ -1,19 +1,14 @@
 :root
 {
     --main-bk-color:rgb(18, 18, 18);
-}
-
-:root
-{
     --button-color:#B2FFA6;
-}
-
-:root
-{
     --section-color:#EFEFEF;
 }
 
-
+body
+{
+    font-family: "Raleway";
+}
 header
 {
     background-color: var(--main-bk-color);
@@ -25,9 +20,88 @@ footer
 
 .button
 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 80px;
+    gap: 10px;
+
+
+    width: 362px;
+    height: 66px;
+    left: 150px;
+    top: 470px;
+
+    border-radius: 5px;
+    border: 0px;
     background-color: var(--button-color);
 }
 .section
 {
     background-color: var(--section-color);
 }
+.oswald-text, .button
+{
+    font-family: "Oswald";
+    text-transform: uppercase;
+    gap: 100px;
+    display: flex;
+}
+.oswald-text:hover
+{
+    color: var(--button-color);
+}
+.section-1
+{
+    font-family: "Raleway";
+    text-transform: capitalize;
+    margin-bottom: 50px;
+}
+ul
+{
+    list-style-type: none;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+.main-section-button
+{
+    border-radius: 3px;
+    padding-left: 80;
+    padding-top: 15;
+    padding-right: 80;
+    padding-bottom: 15;
+
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 80px;
+    gap: 10px;
+    left: calc(50% - 356px/2 + 1px);
+    border: 3px solid #B2FFA6;
+    border-radius: 5px;
+
+
+}
+
+.footer-ul
+{
+    color: var(--section-color);
+}
+
+
+.container
+{
+    max-width: 1920px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+

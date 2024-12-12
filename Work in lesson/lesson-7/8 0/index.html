@@ -4,62 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Макет</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <p><a href="">Golden</a></p>
+    <header class="container">
+        <p><a href="" class="h2-logo-header">Golden</a></p>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href=""  class="header-nav-style">Home</a></li>
+                <li><a href=""  class="header-nav-style">Services</a></li>
+                <li><a href=""  class="header-nav-style">Portfolio</a></li>
+                <li><a href=""  class="header-nav-style">About</a></li>
+                <li><a href=""  class="header-nav-style">Contact</a></li>
             </ul>
     </header>
 
-    <main>
+    <main class="container">
         <h1>Services</h1>
         <ul>
             <li>
-                <img src="" alt="Зображення">
-                <h4>E-Commerce</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
+                <img src="" alt="photo-main-1">
+                <h4 class="h4-main">E-Commerce</h4>
+                <p class="p-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
             </li>
             <li>
-                <img src="" alt="Зображення2">
-                <h4>Responsive Web</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
+                <img src="" alt="photo-main-2">
+                <h4 class="h4-main">Responsive Web</h4>
+                <p class="p-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
             </li>
             <li>
-                <img src="" alt="Зображення3">
-                <h4>Web Security</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
+                <img src="" alt="photo-main-3">
+                <h4 class="h4-main">Web Security</h4>
+                <p class="p-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eos, unde pariatur dolore ipsum a, sit beatae, enim ducimus aliquam quidem qui repellendus iusto repellat libero laborum tempora exercitationem! Labore!</p>
             </li>
             </ul>
     </main>
 
-    <footer>
-        <h2>Contact us</h2>
-            <form>
-                <label>
-                    <input type="text" name="name" placeholder="Your Name">
-                </label>
-                <br>
-                <label>
-                    <input type="email" name="email" placeholder="Your Email">
-                </label>
-                <br>
-                <label>
-                    <input type="text" placeholder="Subject">
-                </label>
-                <br>
-                <label>
-                    <textarea name="Message" placeholder="Your Message"></textarea>
-                </label>
-                <br>
-               <button>Send Message</button>
-            </form>
+    <footer >
+        <div class="container">
+            <h2 class="h2-form-footer">CONTACT US</h2>
+                <form>
+                    <label>
+                        <input type="text" name="name" placeholder="YOUR NAME" class="label-footer">
+                    </label>
+                    <br>
+                    <label>
+                        <input type="email" name="email" placeholder="YOUR EMAIL*" class="label-footer">
+                    </label>
+                    <br>
+                    <label>
+                        <input type="text" placeholder="SUBJECT" class="label-footer">
+                    </label>
+                    <br>
+                    <label>
+                        <textarea name="Message" placeholder="YOUR MESSAGE*" class="label-footer"></textarea>
+                    </label>
+                    <br>
+                <button class="button-foooter">SEND MESSAGE</button>
+                </form>
+        </div>
      </footer>
 
 </body>
