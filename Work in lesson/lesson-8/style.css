@@ -143,10 +143,6 @@ a
 {
     margin-inline-start: 0px;
 }
-.oswald-text
-{
-    
-}
 
 .page-img
 {
@@ -246,7 +242,7 @@ a
 }
 .main-content-p
 {
-    white-space: ;
+    
     font-family: "Raleway";
     font-size: 32px;
     font-weight: 400;
@@ -341,11 +337,6 @@ a
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
-}
-
-.last-section-li
-{
-   
 }
 
 .main-portfolio-ul
