@@ -1,0 +1,27 @@
+header
+{
+    display: flex;
+    align-items: center;
+}
+ul
+{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.container
+{
+    width: 1000px;
+    display: flex;
+    outline: solid red;
+    flex-wrap: wrap;
+    height: 500px;
+    align-content: stretch;
+}
+.div-yoy
+{
+    width: 100px;
+    border: solid black;
+    background-color: white;
+    height: 100px;
+   
+}

@@ -1,0 +1,18 @@
+:root
+{
+    --main-orange-color: #FA4A0C;
+    --gray-text-color: #737373;
+    --black-main-color: #252B42;
+    --light-gray-text-color: #F6F6F6;
+    --main-white-color: #FFFFFF;
+
+}
+
+.container
+{
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

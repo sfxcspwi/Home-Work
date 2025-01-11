@@ -12,7 +12,7 @@
 <body>
     <header class="container">
         <p><a href="" class="h2-logo-header">Golden</a></p>
-            <ul>
+            <ul class="header-ul">
                 <li><a href=""  class="header-nav-style">Home</a></li>
                 <li><a href=""  class="header-nav-style">Services</a></li>
                 <li><a href=""  class="header-nav-style">Portfolio</a></li>
@@ -22,7 +22,9 @@
     </header>
 
     <main class="container">
-        <h1>Services</h1>
+        <div class="div-h1">
+            <h1>Services</h1>
+        </div>
         <ul>
             <li>
                 <img src="" alt="photo-main-1">
@@ -43,27 +45,38 @@
     </main>
 
     <footer >
-        <div class="container">
-            <h2 class="h2-form-footer">CONTACT US</h2>
-                <form>
-                    <label>
-                        <input type="text" name="name" placeholder="YOUR NAME" class="label-footer">
-                    </label>
+        <div class="container footer">
+            <div class="h2-footer-div">
+                <h2 class="h2-form-footer">CONTACT US</h2>
+            </div>
+                <form class="form-footer-main">
+                    <div class="form-footer-1">
+                        <label  class="form-footer">
+                            <input type="text" name="name" placeholder="YOUR NAME" class="label-footer">
+                        </label>
+                        <br>
+                        <label  class="form-footer">
+                            <input type="email" name="email" placeholder="YOUR EMAIL*" class="label-footer">
+                        </label>
+                        <br>
+                        <label  class="form-footer">
+                            <input type="text" placeholder="SUBJECT" class="label-footer">
+                        </label>
+                        <br>
+                    </div>
+                    <div class="form-footer">
+                        <label >
+                            <textarea  name="Message" placeholder="YOUR MESSAGE*" class="label-footer"></textarea>
+                        </label>
+                    </div>
                     <br>
-                    <label>
-                        <input type="email" name="email" placeholder="YOUR EMAIL*" class="label-footer">
-                    </label>
-                    <br>
-                    <label>
-                        <input type="text" placeholder="SUBJECT" class="label-footer">
-                    </label>
-                    <br>
-                    <label>
-                        <textarea name="Message" placeholder="YOUR MESSAGE*" class="label-footer"></textarea>
-                    </label>
-                    <br>
-                <button class="button-foooter">SEND MESSAGE</button>
+                
                 </form>
+
+            <div class="button-div">
+                <button class="button-foooter">SEND MESSAGE</button>
+            </div>
+
         </div>
      </footer>
 

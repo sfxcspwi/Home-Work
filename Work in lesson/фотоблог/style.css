@@ -68,9 +68,20 @@ opacity: 0px;
 
 .container
 {
-    width: 906px;
+    width: 1000px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+}
+.main-ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65px;
+}
+
+.item
+{
+    flex-basis: calc((100% - 65px) / 2);
 }

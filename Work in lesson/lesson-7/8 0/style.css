@@ -14,12 +14,17 @@ footer
 {
     background-color: var(--h-main-color);
 }
+.form-footer
+{
+    display: flex;
+}
 
 ul
 {
     text-decoration: none;
     list-style-type: none;
     display: flex;
+    padding-inline-start: 0px;
 }
 
 a
@@ -51,6 +56,11 @@ a
     text-decoration-skip-ink: none;
     margin: 20px;
 
+}
+
+.header-ul
+{
+    margin-left: 276px;
 }
 
 h1
@@ -92,6 +102,7 @@ h1
 
 .h2-form-footer
 {
+    
     color: var(--h2-footer-color);
     font-family: "Montserrat";
     font-size: 40px;
@@ -101,8 +112,7 @@ h1
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
+    
 }
 .label-footer::placeholder
 {
@@ -129,6 +139,7 @@ h1
 
 .button-foooter
 {
+    
     font-family:"Montserrat";
     font-size: 18px;
     font-weight: 700;
@@ -144,7 +155,7 @@ h1
     left: 582px;
     gap: 0px;
     opacity: 0px;
-
+    border: 0px;
 }
 
 .container
@@ -154,5 +165,38 @@ h1
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-  
+    
+}
+
+.form-footer
+{
+    display: flex;
+    margin-left: 27px;
+}
+.button-div
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 115px;
+}
+
+.form-footer-main
+{
+    display: flex;
+}
+
+.h2-footer-div
+{
+    padding-top: 92px;
+    padding-bottom: 114px;
+}
+
+.form-footer-1
+{
+    margin-left: 233px;
+}
+
+.div-h1
+{
+    padding-bottom: 88px;
 }
