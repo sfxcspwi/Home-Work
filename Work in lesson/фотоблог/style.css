@@ -13,6 +13,11 @@
 ul
 {
     list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .h-site
@@ -84,4 +89,10 @@ opacity: 0px;
 .item
 {
     flex-basis: calc((100% - 65px) / 2);
+}
+
+.button
+{
+display: flex;
+justify-content: center;
 }
