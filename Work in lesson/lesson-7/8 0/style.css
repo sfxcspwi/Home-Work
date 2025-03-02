@@ -42,7 +42,6 @@ a
     line-height: 41px;
     letter-spacing: 1.2999999523162842px;
     text-decoration-skip-ink: none;
-    margin-top: 0;
 
 }
 
@@ -54,16 +53,27 @@ a
     font-weight: 400;
     line-height: 41px;
     text-decoration-skip-ink: none;
-    margin: 20px;
-
+    text-transform: uppercase;
+    margin-top: 55px;
 }
 
 .header-ul
 {
-    margin-left: 276px;
+    gap: 30px;
+
 }
 
-h1
+.main-ul
+{
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    gap: 41px;
+    text-align: center;
+    margin-bottom: 83px;
+}
+
+.h1
 {
     font-family: "Montserrat";
     font-size: 40px;
@@ -73,8 +83,7 @@ h1
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
+    text-transform: uppercase;
 }
 
 .h4-main
@@ -82,11 +91,11 @@ h1
     color: var(--h-main-color);
     font-family: "Montserrat";
     font-size: 18px;
-    font-weight: 700;
-    line-height: 75px;
+    line-height: 20px;
     letter-spacing: -0.44999998807907104px;
     text-decoration-skip-ink: none;
-
+    margin: 0px;
+    margin-top: 40px;
 }
 
 .p-main
@@ -125,6 +134,14 @@ h1
     
 }
 
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
 .label-footer
 {
     width: 455px;
@@ -132,9 +149,16 @@ h1
     top: 2px;
     left: 1px;
     gap: 0px;
-    border: 1px 0px 0px 0px;
+   
     opacity: 0px;
 
+}
+
+.contact-message
+{
+    min-width: 455px;
+    min-height: 186px;
+    margin-left: 30px;
 }
 
 .button-foooter
@@ -160,7 +184,7 @@ h1
 
 .container
 {
-    max-width: 1404px;
+    max-width: 933px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -168,11 +192,7 @@ h1
     
 }
 
-.form-footer
-{
-    display: flex;
-    margin-left: 27px;
-}
+
 .button-div
 {
     display: flex;
@@ -183,6 +203,7 @@ h1
 .form-footer-main
 {
     display: flex;
+    justify-content: space-between;
 }
 
 .h2-footer-div
@@ -191,12 +212,7 @@ h1
     padding-bottom: 114px;
 }
 
-.form-footer-1
-{
-    margin-left: 233px;
-}
-
 .div-h1
 {
-    padding-bottom: 88px;
+    margin-bottom: 88px;
 }
