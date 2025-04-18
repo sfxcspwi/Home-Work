@@ -1,0 +1,60 @@
+body
+{
+    background-color: rgb(122, 122, 122);
+}
+
+.container
+{
+    background-color: white;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid 1px black;
+}
+
+.item
+{
+    width: 200px;
+    height: 200px;
+    border: solid 1px black;
+    animation-name: item-anim;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position: absolute;
+ 
+}
+
+@keyframes item-anim {
+    0%, 100% 
+    {
+        background-color: red;
+        top: 2%;
+        left: 2%;
+    }
+
+    25% 
+    {
+      background-color: blue;
+      top: 78%;
+      left: 2%;
+    }
+
+    50% 
+    {
+      background-color: green;
+      top: 78%;
+      left: 78%;
+    }
+
+    75% 
+    {
+      background-color: yellow;
+      top: 2%;
+      left: 78%;
+    }
+
+  }
