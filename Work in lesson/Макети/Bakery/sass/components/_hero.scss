@@ -1,0 +1,260 @@
+@import "../utils/variables";
+
+.header-hero__bg
+{
+    background-image:  linear-gradient(89.59deg, #000000 8.49%, rgba(3, 3, 3, 0) 50.14%), url(/img-all/header-hero__bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.hero
+{
+    &__title
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 70px;
+    line-height: 110%;
+    letter-spacing: 0%;
+    color: $main-color;
+    margin-top: 71px;
+    margin-bottom: 22px;
+    width: 561px;
+    height: 170px;
+}
+
+&__info
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: $main-color;
+    margin: 0px;
+    width: 570.253173828125px;
+    height: 200px;
+    top: 347px;
+    left: 160px;
+
+}
+
+&__btn
+{
+    background-color: $decor-color;
+    color: $main-color;
+    font-family: "Inter";
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 207px;
+    height: 57px;
+    border: 0px;
+    border-radius: 17px;
+    padding: 16px 34px 16px 34px;
+    margin-top: 33px;
+}
+}
+
+
+.back-drop
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
+}
+
+.modal
+{
+    width: 990px;
+    height: 669px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(./img-all/bread-background.png), $main-color;
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 1;
+    animation-name: modal-open;    
+    animation-duration: 0.5s;    
+    animation-timing-function: ease-out;    
+    animation-fill-mode: both;
+
+    &__form
+    {
+        width: 412px;
+        height: 72px;
+        margin-left: 83px;
+        background-color: #F5F5F5;
+        border: 0px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        padding-left: 16px;
+        font-family: "Inter";
+        font-weight: 200;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: black;
+
+    }
+
+    &__btn
+    {
+        width: 207px;
+        height: 57px;
+        border-radius: 17px;
+        background-color: $decor-color;
+        color: $main-color;
+        font-family: "Inter";
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        border: 0px;
+        margin-left: 83px;
+        margin-top: 24px;
+
+    }
+
+    &__title
+    {
+        font-family: "Inter";
+        font-weight: 200;
+        font-size: 48px;
+        line-height: 110%;
+        letter-spacing: 0%;
+        color: black;
+        width: 385px;
+        height: 116px;
+        margin-top: 94px;
+        margin-left: 87px;
+        margin-bottom: 0px;
+
+    }
+
+
+}
+
+@keyframes modal-open 
+{
+    from {
+      transform: translate(-50%, 100%); 
+    }
+    to {
+      transform: translate(-50%, -50%);
+    }
+}
+
+
+.is-hidden
+{
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.bakery
+{
+    margin-top: 125px;
+    padding-bottom: 36px;
+
+    &__list
+    {
+        display: flex;
+        gap: 104px;
+    }
+
+    &__list-item
+    {
+        width: 310px;
+        height: 225px;
+        background: linear-gradient(81.4deg, #000000 -110.34%, rgba(0, 0, 0, 0) 80.32%), $bg-gradient-color;
+        display: flex;
+        align-items: center;
+    }
+
+    &__list-item:hover
+    {
+        width: 310px;
+        height: 225px;
+        background: linear-gradient(81.4deg, #000000 -110.34%, rgba(0, 0, 0, 0) 80.32%), #EBAD51;
+        animation-play-state: paused;
+        animation-fill-mode: backwards;
+    }
+
+}
+
+.item
+{
+    
+&__img
+{
+
+    width: 162px;
+    height: 170px;
+
+}
+
+&__info
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+&__info-btn
+{
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: $main-color;
+    background-color: $button-bg-color;
+    border: 0px;
+    width: 79px;
+    height: 34px;
+}
+
+&__info-price
+{
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: $main-color;
+    margin-bottom: 13px;
+    text-align: center;
+}
+
+&__info-name
+{
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: $main-color;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+}
+
+

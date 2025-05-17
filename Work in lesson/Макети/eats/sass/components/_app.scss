@@ -1,0 +1,106 @@
+@import "../utils/variables";
+
+.app
+{
+    &-wrap__title
+    {
+        width: 426px;
+        height: 36px;
+        left: 527px;
+        top: 831px;
+        
+        font-family: "Poppins";
+        font-weight: 600;
+        font-size: 44px;
+        line-height: 36px;
+        
+        letter-spacing: 0.1px;
+
+        opacity: 0.8;
+
+        margin: 0px;
+    }
+
+    &-wrap
+    {
+        display: flex;
+        justify-content: center;
+        padding-top: 56px;
+        
+    }
+
+    &__list-item
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 74px;
+    }
+
+    &__list-item-reverse
+    {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 100px;
+        padding-top: 150px;
+    }
+
+}
+
+.item
+{
+        
+    &__text
+    {
+        width: 568px;
+        height: 480px;
+    }
+
+    &__info
+    {
+        
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $text-secondary;
+
+    }
+
+    &__intsr
+    {
+        
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+        letter-spacing: 0.10000000149011612px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $decor-color;
+
+    }
+
+    &__title
+    {
+        
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $background-dark;
+    }
+
+}
+

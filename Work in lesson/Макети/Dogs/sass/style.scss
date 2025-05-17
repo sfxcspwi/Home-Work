@@ -1,0 +1,32 @@
+@import "./components/header";
+@import "./components/advantages";
+@import "./components/about";
+@import "./components/services";
+@import "./components/hero";
+@import "./components/footer";
+
+.container
+{
+    max-width: 1620px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul
+{
+    list-style-type: none;
+    margin-inline-start: 0px;
+}
+
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.section
+{
+    background-color: $contrast-text-color;
+}

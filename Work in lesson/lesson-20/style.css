@@ -1,0 +1,38 @@
+.h1
+{
+    position: fixed;
+    right: 0px;
+}
+
+.h2 
+{
+    position: sticky;
+    top: 0;
+    background: #fee;
+}
+
+body
+{
+    height: 1500px;
+}
+
+.p
+{
+    position: static;
+}
+
+.p-relative
+{
+
+   position: relative;
+   top: 28px;
+   margin: 0;
+   background-color: beige;
+  
+}
+
+h3
+{
+    position: absolute;
+    top: 500px;
+}

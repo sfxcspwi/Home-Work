@@ -1,0 +1,51 @@
+@import "../utils/variables.scss";
+@import "../utils/placeholder";
+
+.main
+{
+    &__list
+    {
+        display: flex;
+        padding: 0px;
+        justify-content: space-between;
+        gap: 41px;
+        text-align: center;
+        margin-bottom: 83px;
+    }
+
+    &__title
+    {
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: -1px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        text-transform: uppercase;
+    }
+
+    &__list-title
+    {
+        color: $main-comp-color;
+        line-height: 20px;
+        letter-spacing: -0.44999998807907104px;
+        text-decoration-skip-ink: none;
+        margin: 0px;
+        margin-top: 40px;
+
+        @extend %text;
+    }
+
+    &__list-text
+    {
+        color: $text-info-color;
+        font-family: "RobotoSlab";
+        font-size: 14px;
+        line-height: 16.41px;
+        letter-spacing: -0.3499999940395355px;
+        text-decoration-skip-ink: none;
+
+    }
+}

@@ -1,0 +1,26 @@
+
+.header__nav
+{
+    display: flex;
+    gap: 100px;
+
+    &-link
+    {
+        font-family: "Playfair Display"; 
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.66px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #7D7D7D;
+    }
+
+    &-link:hover
+    {
+        color: #03A9F4;
+    }
+
+
+}

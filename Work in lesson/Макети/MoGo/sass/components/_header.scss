@@ -1,0 +1,43 @@
+@import "../utils/variables";
+@import "../utils/placeholder";
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+
+    &__logo
+    {
+        color: $decor-color;
+
+        @extend %headline;
+        text-align: left;
+    
+    }
+
+    &__nav
+    {
+        display: flex;
+        gap: 55px;
+    }
+
+    &__nav-link
+    {
+        color: $decor-color;
+        font-weight: 400;
+        line-height: 17.07px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        
+        @extend %text;
+        @include text(14px);
+    }
+
+    &__nav-link:hover
+    {
+        color: $highlight-line-color;
+    }
+
+
+}

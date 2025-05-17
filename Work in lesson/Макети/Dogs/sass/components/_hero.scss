@@ -1,0 +1,63 @@
+@import "../utils/variables";
+
+.hero
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title
+    {
+        font-family: "Raleway";
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 75.14px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        flex-wrap: wrap;
+        margin-top: 0px;
+
+    }
+
+    &__text
+    {
+        font-family: "Raleway";
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 75.14px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    }
+
+    &__button
+    {
+        white-space: nowrap;
+        font-family: "Oswald";
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35.57px;
+        letter-spacing: 0.06em;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+    
+        
+        padding: 15px 80px;
+        gap: 10px;
+    
+    
+        width: 362px;
+        height: 66px;
+        left: 150px;
+        top: 470px;
+
+        border-radius: 5px;
+        border: 0px;
+        background-color: $decor-color;
+    }
+
+}

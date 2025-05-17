@@ -1,0 +1,30 @@
+@import "../utils/variables";
+
+
+.header
+{ 
+    background-color: $bg-color;
+
+    &__nav-link
+    {
+        font-family: "Oswald";
+        text-transform: uppercase;
+        gap: 100px;
+        display: flex;
+    }
+
+    &__nav-link:hover
+    {
+        color: $decor-color;
+    }
+
+    &__nav
+    {
+        display: flex;
+        gap: 100px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin: 0px;
+    }
+}
+

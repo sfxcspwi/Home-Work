@@ -1,0 +1,95 @@
+@import "../utils/variables";
+
+.order
+{
+    background-image: url(/photo/background-section3.png);
+    background-size: cover;
+    height: 509px;
+
+    &__title
+    {
+        margin: 0px;
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color:$text-on-dark;
+        padding-top: 141px;
+    }
+
+    &__info
+    {
+
+        font-family: "Montserrat";
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 38px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $text-on-dark;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0px;
+    }
+
+    &__btns-playstore
+    {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $text-on-dark;
+
+        width:142px;
+        height:64px;
+        padding: 18px 31px 18px 31px;
+        gap: 10px;
+        border-radius: 10px;
+        border: 0px;
+        opacity: 0px;
+
+        background-color: $decor-color;
+    }
+
+    &__btns
+    {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        padding-top: 51px;
+        padding-bottom: 132px;
+    }
+
+    &__btns-appstore
+    {
+        width: Hug (173px)px;
+        height: Hug (60px)px;
+        padding: 16px 45px 16px 45px;
+        gap: 10px;
+        border-radius: 10px;
+        opacity: 0px;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color:$text-on-dark;
+
+    }
+}

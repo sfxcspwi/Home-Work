@@ -1,0 +1,41 @@
+@import "../utils/variables";
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 155px;
+
+    &__nav
+    {
+        display: flex;
+        gap: 94px;
+    }
+    &__nav-link:hover
+    {
+        
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $decor-color;
+    }
+
+    &__nav-link
+    {
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0.20000000298023224px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $background-dark;
+    }
+}

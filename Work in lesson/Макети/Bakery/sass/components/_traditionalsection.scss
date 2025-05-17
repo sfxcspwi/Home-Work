@@ -1,0 +1,54 @@
+@import "../utils/variables";
+
+.traditional
+{
+    &__wrap-list
+    {
+        display: flex;
+        gap: 170px;
+    }
+
+    &__bg
+    {
+        background-image: url(/img-all/traditional-bakery-bg.png);
+    }
+
+    &__title
+    {
+        font-family: "Italiana";
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: $main-color;
+        margin-top: 0px;
+        padding-top: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        height: 114px;
+        margin-bottom: 132px;
+    }
+
+
+    &__wrap
+    {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+.list__title
+{
+    text-align: center;
+    margin-top: 13px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color:$main-color;
+}
+

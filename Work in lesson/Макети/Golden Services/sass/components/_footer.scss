@@ -1,0 +1,95 @@
+
+@import "../utils/variables.scss";
+@import "../utils/placeholder";
+
+.footer
+{
+    background-color: $main-comp-color;
+
+    &__form-label
+    {
+        display: flex;
+    }
+
+    &__title
+    {
+        
+        color: $form-color;
+        font-family: "Montserrat";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        letter-spacing: -1px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        padding-top: 92px;
+        padding-bottom: 114px;
+    }
+
+    &__form-input::placeholder
+    {
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17.07px;
+        letter-spacing: -0.3499999940395355px;
+        text-decoration-skip-ink: none;
+        
+    }
+
+    &__form-input
+    {
+        width: 455px;
+        height: 50px;
+        top: 2px;
+        left: 1px;
+        gap: 0px;
+    
+        opacity: 0px;
+
+    }
+    &__form-input-message
+    {
+        min-width: 455px;
+        min-height: 186px;
+        margin-left: 30px;
+    }
+
+    &__button
+    {
+        
+        @extend %text;
+
+        font-weight: 700;
+        line-height: 21.94px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $form-color;
+        background-color: $decor-color;
+        width: 242px;
+        height: 68px;
+        top: 496px;
+        left: 582px;
+        gap: 0px;
+        opacity: 0px;
+        border: 0px;
+    }
+
+    &__button-wrap
+    {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 115px;
+    }
+
+    &__form
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+}
+

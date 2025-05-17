@@ -1,0 +1,39 @@
+@import "../utils/variables.scss";
+
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__nav-link
+    {
+        color: $decor-color;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 41px;
+        text-decoration-skip-ink: none;
+        text-transform: uppercase;
+        margin-top: 55px;
+    }
+
+    &__nav
+    {
+        gap: 30px;
+
+    }
+
+    &__logo
+    {
+        color: $decor-color;
+        font-family: "Bilbo Swash Caps";
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 1.2999999523162842px;
+        text-decoration-skip-ink: none;
+
+    }
+
+}
