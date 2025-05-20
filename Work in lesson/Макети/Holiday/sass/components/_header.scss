@@ -1,0 +1,40 @@
+@import "../utils/variables";
+
+.header
+{
+    &__auth
+    {
+        margin-top: 0px;
+        padding-top: 19px;
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    &__auth-buttons
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 13.99px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: bottom;
+        color: $primary-title-clr;
+        background-color: transparent;
+    }
+
+    &__auth li:nth-child(1) .header__auth-buttons
+    {
+        border: none;
+        padding: 0px 13px;
+    }
+
+    &__auth li:nth-child(2) .header__auth-buttons
+    {
+        border: 2px solid $primary-title-clr;
+        border-radius: 20px;
+        padding: 7px 13px;
+    }
+}
+

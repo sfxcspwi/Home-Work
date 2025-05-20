@@ -1,0 +1,29 @@
+@import "../sass/components/header";
+@import "../sass/components/hero";
+@import "../sass/components/main";
+
+ul
+{
+    list-style-type: none;
+    padding: 0px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{
+    max-width: 283px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header-hero__bg
+{
+    background-image: url(/image/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}

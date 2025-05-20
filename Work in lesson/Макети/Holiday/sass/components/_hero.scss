@@ -1,0 +1,76 @@
+@import "../utils/variables";
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__subtitle
+    {
+        text-align: center;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 112px;
+        margin-bottom: 22px;
+        color: $primary-title-clr;
+
+    }
+
+    &__title
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 30.04px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $primary-title-clr;
+        vertical-align: bottom;
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+
+    &__title-highlight
+    {
+        text-wrap: nowrap;
+    }
+
+    &__description
+    {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 18.02px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: bottom;
+        color: $primary-title-clr;
+        margin-top: 0px;
+        margin-bottom: 17px;
+    }
+
+    &__button
+    {
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0px;
+        text-align: center;
+        vertical-align: bottom;
+        color: $primary-title-clr;
+        background-color: $decor-clr;
+        border: none;
+        padding: 13px 38px;
+        text-wrap: nowrap;
+        border-radius: 20px;
+        margin-bottom: 138px;
+    }
+}
+
