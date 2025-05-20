@@ -94,7 +94,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .partners__title {
   font-family: "Montserrat";
   font-weight: 700;
@@ -113,14 +112,12 @@
   justify-content: center;
   margin-bottom: 14px;
 }
-
 .partners__item {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 27px;
 }
-
 .partners__name {
   font-family: "Montserrat";
   font-weight: 700;
@@ -131,7 +128,6 @@
   vertical-align: bottom;
   color: #333333;
 }
-
 .partners__description {
   font-family: "Roboto";
   font-weight: 300;
@@ -142,7 +138,6 @@
   vertical-align: bottom;
   color: #666666;
 }
-
 .partners__button {
   font-family: "Montserrat";
   font-weight: 700;
@@ -159,7 +154,6 @@
   background-color: transparent;
   margin-bottom: 57px;
 }
-
 .partners__list {
   margin-top: 0px;
   margin-bottom: 0px;
