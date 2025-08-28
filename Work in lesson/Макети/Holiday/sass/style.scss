@@ -23,10 +23,14 @@ a
 
 .header-hero__bg
 {
-    background-image: url(/image/bg.png);
+    background-image: url(/image/desk-header__bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 100%;
+    min-width: 320px;
+    height: auto;
 }
+
 
 @media (min-width: 768px) and (max-width: 1200px)
 {
@@ -36,22 +40,13 @@ a
         max-width: 670px;
     }
 
-    .header-hero__bg
-    {
-        background-image: url(/image/tablet-header__bg.png);
-    }
 }
 
-@media (min-width: 1200px) and (max-width: 1440px)
+@media (min-width: 1200px)
 {
 
     .container
     {
         max-width: 940px;
-    }
-
-    .header-hero__bg
-    {
-        background-image: url(/image/desk-header__bg.png);
     }
 }

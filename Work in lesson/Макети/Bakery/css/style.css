@@ -161,7 +161,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url(./img-all/bread-background.png), #FFFFFF;
+  background: url(/img-all/bread-background.png), #FFFFFF;
   border-radius: 50px;
   background-repeat: no-repeat;
   background-position: right;
