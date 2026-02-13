@@ -91,21 +91,24 @@ galleryItems.forEach(item =>
 });
 
 gallery.addEventListener("click", (event) => {
-  event.preventDefault();
 
-  if (!event.target.classList.contains("gallery__image")) return;
+    event.preventDefault(); 
 
-  const originalImg = event.target.dataset.source;
+    if (!event.target.classList.contains("gallery__image")) return; 
 
-  lightBox.classList.add("is-open");
-  lightBoxImage.src = originalImg;
-  lightBoxImage.alt = event.target.alt;
+    const originalImg = event.target.dataset.source;   
+
+    lightBox.classList.add("is-open");
+
+    lightBoxImage.src = originalImg;
+    lightBoxImage.alt = event.target.alt;
 });
 
 
 
 closeBtn.addEventListener("click", () => 
 {
-  lightBox.classList.remove("is-open");
-  lightBoxImage.src = "";
+    lightBox.classList.remove("is-open");
+    
+    lightBoxImage.src = "";
 });
