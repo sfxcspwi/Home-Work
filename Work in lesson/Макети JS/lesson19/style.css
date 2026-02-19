@@ -1,0 +1,21 @@
+.link
+{
+    outline: red solid;
+}
+
+.decorate
+{
+    outline: blue solid;
+}
+
+.title
+{
+    font-size: 30px;
+    color: purple
+}
+
+.title__secondary
+{
+    font-size: 25px;
+    color: green;
+}

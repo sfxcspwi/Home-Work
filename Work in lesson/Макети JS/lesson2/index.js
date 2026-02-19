@@ -23,5 +23,5 @@
 // price=20000; 
 // console.log( `Обрано «${name}», Ціна за штуку ${price} кредитів `);
 
-//let userName=prompt("Привіт, як вас звати?");
-//alert (`${userName}, дякуємо що приєднався`);
+// let userName=prompt("Привіт, як вас звати?");
+// alert (`${userName}, дякуємо що приєднався`);
