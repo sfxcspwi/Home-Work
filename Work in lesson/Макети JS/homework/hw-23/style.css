@@ -1,0 +1,30 @@
+.list 
+{
+    list-style: none;
+}
+
+.lazy-img 
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.img__item
+{
+    width: 250px;
+    height: 250px;
+}
+
+.lazy-img 
+{
+  opacity: 0.5;
+}
+
+.img__item 
+{
+  transition: 0.5s;
+}
