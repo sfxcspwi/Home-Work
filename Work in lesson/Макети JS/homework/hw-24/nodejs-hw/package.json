@@ -1,0 +1,10 @@
+{
+  "name": "nodejs-hw",
+  "version": "1.0.0",
+  "description": "Мій перший проєкт на Node.js",
+  "main": "index.js",
+  "author": "Чугуївець Станіслав",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
