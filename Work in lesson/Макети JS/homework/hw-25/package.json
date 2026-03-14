@@ -1,0 +1,20 @@
+{
+  "name": "hw-25",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "vite": "^8.0.0"
+  },
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.5.1"
+  }
+}
