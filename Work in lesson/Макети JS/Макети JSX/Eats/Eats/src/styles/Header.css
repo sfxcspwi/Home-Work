@@ -1,0 +1,37 @@
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 155px;
+}
+
+.header__nav
+{
+    display: flex;
+    gap: 94px;
+}
+
+.header__nav-link:hover
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FA4A0C;
+}
+
+.header__nav-link
+{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #252B42;
+}
