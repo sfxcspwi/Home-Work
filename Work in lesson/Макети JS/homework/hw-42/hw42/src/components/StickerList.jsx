@@ -17,7 +17,7 @@ function StickerList({ onStickerClick })
   )
 }
 
-const List = styled.ul`
+let List = styled.ul`
   display: flex;
   gap: 20px;
   padding: 0;

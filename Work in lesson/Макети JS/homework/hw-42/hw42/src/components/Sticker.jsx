@@ -11,17 +11,17 @@ function Sticker({ sticker, onStickerClick })
   )
 }
 
-const StickerItem = styled.li`
+let StickerItem = styled.li`
   list-style: none;
 `
 
-const Button = styled.button`
+let Button = styled.button`
   border: none;
   background: none;
   cursor: pointer;
 `
 
-const Image = styled.img`
+let Image = styled.img`
   width: 120px;
   height: 120px;
 `

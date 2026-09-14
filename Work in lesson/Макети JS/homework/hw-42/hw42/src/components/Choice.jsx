@@ -9,7 +9,7 @@ function Choice({ selectedSticker })
   )
 }
 
-const ChoiceBox = styled.div`
+let ChoiceBox = styled.div`
   width: 300px;
   margin: 30px auto;
   padding: 20px;

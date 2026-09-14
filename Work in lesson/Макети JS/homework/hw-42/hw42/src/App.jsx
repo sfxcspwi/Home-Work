@@ -6,6 +6,7 @@ import StickerList from "./components/StickerList"
 import Choice from "./components/Choice"
 import './App.css'
 
+
 function App() {
   const [selectedSticker, setSelectedSticker] = useState("")
 
@@ -14,8 +15,11 @@ function App() {
       <Choice selectedSticker={selectedSticker} />
 
       <StickerList onStickerClick={setSelectedSticker} />
+      
     </>
   )
 }
+
+
 
 export default App
